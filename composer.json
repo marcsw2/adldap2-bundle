@@ -14,7 +14,7 @@
     },
     "require": {
         "php"                           : ">=7.0",
-        "adldap2/adldap2"               : "~10.0",
+        "adldap2/adldap2"               : "~10.2",
         "symfony/config"                : "^4.0",
         "symfony/dependency-injection"  : "^4.0",
         "symfony/http-kernel"           : "^4.0"
