@@ -19,7 +19,7 @@ class Configuration implements ConfigurationInterface
             ->children()
                 ->arrayNode('connection_settings')
                     ->children()
-                        ->arrayNode('domain_controllers')
+                        ->arrayNode('hosts')
                             ->prototype('scalar')->end()
                             ->isRequired()
                             ->requiresAtLeastOneElement()
